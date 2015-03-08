@@ -4,7 +4,7 @@ ehthumbs.db
 .classpath
 .project
 .settings/
-
+.target/
 # Folder config file
 Desktop.ini
 
