@@ -21,7 +21,7 @@ public class ProductServiceImplTest {
     private List<Product> createSamsungProducts() {
         List<Product> samsungProducts = new ArrayList<Product>();
         samsungProducts.add(new Product("SS01", "Samsung Galaxy S2", 10, new Float(100), Category.Samsung));
-        samsungProducts.add(new Product("SS02", "Samsung Galaxy S3", 5, new Float(200), Category.Samsung));
+        samsungProducts.add(new Product("SS02", "Samsung Galaxy S3", 5, new Float(10), Category.Samsung));
         samsungProducts.add(new Product("SS03", "Samsung Galaxy S4", 1, new Float(300), Category.Samsung));
         return samsungProducts;
     }
