@@ -31,8 +31,8 @@ public class ProductServiceImpl_getTotalPriceOfProductTest extends ProductServic
     @Test
     public void shouldReturn45WhenCatalogIsSammsungAndNumberOfRecordIs10AndPriceIs5() {
         
-        Float actualResult = new Float(45);
-        Float expectedResult = prepareGetTotalAmountOfProduct("SS02");
+        Float expectedResult = new Float(45);
+        Float actualResult = prepareGetTotalAmountOfProduct("SS02");
         Assertions.assertThat(actualResult).isEqualTo(expectedResult);
     }
     
