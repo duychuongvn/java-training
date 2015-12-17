@@ -4,9 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import vn.smartdev.tdd.dao.entity.Product;
 import vn.smartdev.tdd.dao.repository.ProductRepository;
-import vn.smartdev.tdd.service.IProductService;
+import vn.smartdev.tdd.service.ProductService;
 
-public class ProductServiceImpl implements IProductService {
+public class ProductServiceImpl implements ProductService {
 
     
     private ProductRepository productRepository;
